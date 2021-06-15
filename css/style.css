@@ -45,6 +45,7 @@ h1 {
     margin: 0 auto;
     background: #f1f1f1;
     padding: 10px;
+    
 }
 
 figure {
@@ -107,9 +108,12 @@ p {
 }
 
 .out-1 .t-2 {
+    margin-left: 100px;
 }
 
 .out-1 .t-3 {
+    margin-left: 200px;
+    margin-top: -200px;
 }
 
 /* Task 1 END -------------------------------------- */
@@ -128,9 +132,12 @@ p {
 }
 
 .out-2 .t-2 {
+    margin-left: 100px;
+    margin-top: 100px;
 }
 
 .out-2 .t-3 {
+    margin-left: 200px;
 }
 
 /* Task 2 END -------------------------------------- */
@@ -149,12 +156,18 @@ p {
 }
 
 .out-3 .t-1 {
+    margin-left: 50px;
+    margin-top: 50px;
 }
 
 .out-3 .t-2 {
+    margin-left: 100px;
+    margin-top: 100px;
 }
 
 .out-3 .t-3 {
+    margin-left: 150px;
+    margin-top: 150px;
 }
 
 /* Task 3 END -------------------------------------- */
@@ -177,12 +190,16 @@ p {
 }
 
 .out-4 .t-2 {
+    margin-top: 100px;
 }
 
 .out-4 .t-3 {
+    margin-left: 300px;
 }
 
 .out-4 .t-4 {
+    margin-left: 300px;
+    margin-top: 100px;
 }
 
 /* Task 4 END -------------------------------------- */
@@ -201,12 +218,21 @@ p {
 }
 
 .out-5 .t-1 {
+    transform: rotate(45deg);
+    margin-top: 50px;
+    margin-left: 100px;
 }
 
 .out-5 .t-2 {
+    transform: rotate(45deg);
+    margin-top: 50px;
+    margin-left: 150px;
 }
 
 .out-5 .t-3 {
+    transform: rotate(45deg);
+    margin-top: 50px;
+    margin-left: 200px;
 }
 
 
@@ -218,17 +244,25 @@ p {
 }
 
 .out-6 .s-6 {
-
-}   
+    position: relative;
+    top: -10px;    
+} 
+  
 
 
 /* Task 6 END -------------------------------------- */
 
 /* Task 7 -------------------------------------- */
-.out-7 {
+.out-7 { 
+    position: fixed;  
     background: #000;
     width: 30px;
-    height: 30px;
+    height: 30px;    
+    margin-left: 50px;
+    margin-bottom: 50px;    
+    right: 50px;
+    bottom: 50px;  
+        
 }
   
 
